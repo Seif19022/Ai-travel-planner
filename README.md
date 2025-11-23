@@ -59,7 +59,7 @@ High-level architecture (as in the slides):
 ---
 ▶️ Running the project
 1. Backend (FastAPI + RAG)
-# In a Python virtualenv
+In a Python virtualenv
 pip install -r requirements_backend.txt
 
 cd backend
@@ -107,7 +107,7 @@ Response (simplified):
 2. Frontend (Streamlit)
 pip install -r requirements_frontend.txt
 
-# if backend is local
+ if backend is local
 export PLANNER_URL="http://localhost:8000"
 export PLANNER_API_KEY="secret123"
 
@@ -176,22 +176,9 @@ User accounts + shareable links.
 
 👤 Author
 
-Seifeldin (Seif) Elnozahy
+Seifeldin Elnozahy
 AI & Software Engineer
 Built as part of an AI engineering internship/project at Tips Hindawi.
 
 
----
 
-## 4️⃣ .gitignore & requirements
-
-Add a simple `.gitignore`:
-
-```text
-__pycache__/
-.env
-.trips/
-trips/
-*.json
-*.pdf
-.ngrok2/
